@@ -1,0 +1,10 @@
+Package: notitia
+Type: Package
+Title: A package for learning
+Version: 0.1.0
+Author: Daryn Ramsden
+Maintainer: Daryn Ramsden <thisisdaryn@gmail.com>
+Description: A Package with data sets for teaching R and Data Science
+License: MIT + file LICENCE
+Encoding: UTF-8
+LazyData: true
