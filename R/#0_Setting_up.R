@@ -115,6 +115,7 @@ lara <- lara %>% arrange(Year, Month, Day) %>%
   select(-Year, -Day, -Month)
 
 lara$Runs <- as.integer(lara$Runs)
+lara$Inning <- as.factor(lara$Inning)
 
 lara <- as.data.frame(lara)
 
